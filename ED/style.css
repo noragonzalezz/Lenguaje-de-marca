@@ -1,13 +1,10 @@
-.cuadrado{
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
+.contenedor > div{
+    float: left;
+    margin-right: 10px;
    
-    
+}
+.arriba, .abajo {
     display: flex;
-    justify-content: center;
-    margin: 0% auto;
-    
-    align-items: center; 
-    
+    justify-content: space-between; 
+    margin-bottom: 20px;
 }
