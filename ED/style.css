@@ -1,0 +1,10 @@
+.contenedor > div{
+    float: left;
+    margin-right: 10px;
+   
+}
+.arriba, .abajo {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+}
