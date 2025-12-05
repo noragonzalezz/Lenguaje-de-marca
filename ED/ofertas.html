@@ -34,6 +34,17 @@
           background-color: #d68cf3;
           border: 2px solid rgb(204, 108, 204);
       }
+        .contenido {
+            width: 100%;
+            margin: 20px 0;
+            min-height: 550px; 
+            background-color: #e499ec;
+            border: 2px solid rgb(204, 108, 204);
+        }
+        .contenido:hover {
+            background-color: #d68cf3;
+            transform: scale(1.02);
+        }
         .footer {
             position: absolute;
             bottom: 0;
@@ -47,10 +58,11 @@
 <body>
     <div class="menu">
       <div class="nombre">NOMBRE</div>
-      <div class="botones">Acerca de</div> 
-      <div class="botones">Ofertas</div> 
-      <div class="botones">Contacto</div>  
+      <div class="botones"><a style="text-decoration: none; color: black;" href="acerca_de.html">Acerca de</a></div> 
+      <div class="botones"><a style="text-decoration: none; color: black;" href="index.html">Volver</a></div> 
+      <div class="botones"><a style="text-decoration: none; color: black;" href="contacto.html">Contacto</a></div>  
     </div>
+    <div class="contenido"></div>
     <div class="footer"></div>
 </body>
 </html>

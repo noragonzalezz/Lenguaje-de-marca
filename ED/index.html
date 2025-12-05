@@ -13,6 +13,7 @@
             align-items: center;
             background-color: #e5bdf5;
             border: 2px solid rgb(204, 108, 204);
+            position: relative; 
         }
         .nombre {
             width: 40%;
@@ -34,6 +35,29 @@
             background-color: #d68cf3;
             border: 2px solid rgb(204, 108, 204);
         }
+
+        
+        .carrito {
+            position: relative;
+            right: 20px;
+            top: 100px;
+            width: 60px;
+            height: 60px;
+            background-color: #d68cf3;
+            border: 2px solid rgb(204, 108, 204);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+        }
+        .carrito:hover {
+            background-color: #c987e4;
+            transform: scale(1.1);
+        }
+
         .coleccion {
             width: 75%;
             height: 275px;
@@ -60,14 +84,18 @@
 <body>
     <div class="menu">
       <div class="nombre">NOMBRE</div>
-      <div class="botones">Acerca de</div> 
-      <div class="botones">Ofertas</div> 
-      <div class="botones">Contacto</div>  
+      <div class="botones"><a style="text-decoration: none; color: black;" href="acerca_de.html">Acerca de</a></div> 
+      <div class="botones"><a style="text-decoration: none; color: black;" href="ofertas.html">Ofertas</a></div> 
+      <div class="botones"><a style="text-decoration: none; color: black;" href="contacto.html">Contacto</a></div>  
+
+      
+      <div class="carrito">C</div>
     </div>
+
     <div class="coleccion"></div>
     <div class="coleccion"></div>
+
     <div class="footer"></div>
 
-    
 </body>
 </html>
